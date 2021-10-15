@@ -8,5 +8,15 @@
 </head>
 <body>
   <h3>This is a static page</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ea eos aliquam molestiae nemo consequatur? Voluptatibus, saepe quod aspernatur amet quos minima repellat id deserunt, suscipit ab quidem magni earum!</p>
+  <button id="button">Click here!</button>
+  <script>
+
+    let myButton = document.getElementById("button");
+    let message = "Button has been clicked by the user"
+    myButton.addEventListener('click',  function(){
+      alert(message);
+    });
+  </script>
 </body>
 </html>
